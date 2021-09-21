@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/default.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <title>RIRA DEV</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+    
+      <a href="#"><img class="logoimg" src="./images/logo1.png" alt=""></a>
+     
+    </div>
+    <div class="navbar">
+
+      <div class="icon-bar" onclick="Show()">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+
+      <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()">×</span></li>
+        <li ><a href="#home-section" onclick="Hide()">Accueil</a></li>
+        <li><a href="#propos-section" onclick="Hide()">A propos</a></li>
+        <li><a href="#work-section" onclick="Hide()">Nos réalisations</a></li>
+        <li><a href="#services-section"onclick="Hide()">Nos services</a></li>
+        <li><a href="#contact-section"onclick="Hide()">Contactez-nous</a></li>
+      </ul>
+
+    </div>
+    
+  </div>
+  <!-- sections -->
+  <section class="home" id="home-section"></section>
+  <section class="propos" id="propos-section"></section>
+  <section class="work" id="work-section"></section>
+  <section class="services" id="services-section"></section>
+  <section class="contact" id="contact-section"></section>
+  <script src="./app.js"></script>
+</body>
+
+</html>
