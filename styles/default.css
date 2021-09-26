@@ -30,6 +30,7 @@ section {
 .text {
   color: #262626;
   z-index: 10;
+  transition: linear 0.5s;
 }
 .text > h2 {
   text-transform: capitalize;
@@ -143,13 +144,13 @@ section {
 }
 
 .propos {
-  background: gray;
+  background: white;
+  position: relative;
   z-index: 10;
-  position: absolute;
-  width: 100vw;
 }
 .work {
   background: cyan;
+  height: 100vh;
 }
 .services {
   background: white;
