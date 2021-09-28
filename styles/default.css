@@ -152,12 +152,6 @@ section {
   background: cyan;
   height: 100vh;
 }
-.services {
-  background: white;
-}
-.contact {
-  background: turquoise;
-}
 
 @media only screen and (max-width: 425px) {
   .circle {
