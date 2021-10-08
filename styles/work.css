@@ -1,0 +1,30 @@
+.work {
+  height: auto;
+}
+.work > h2 {
+  font-size: 36px;
+  color: #283d50;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 30px 20px 30px;
+  text-transform: capitalize;
+}
+.product-card {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  flex: 0.4;
+}
+.product-img {
+  flex: 0.4;
+}
+.product-img > img {
+  height: 100%;
+  width: 100%;
+}

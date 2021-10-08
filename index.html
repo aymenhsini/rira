@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="./styles/default.css">
   <link rel="stylesheet" href="./styles/header.css">
   <link rel="stylesheet" href="./styles/about-section.css">
+  <link rel="stylesheet" href="./styles/work.css">
   <link rel="stylesheet" href="./styles/services.css">
   <link rel="stylesheet" href="./styles/contact.css">
+  <link rel="stylesheet" href="./styles/footer.css">
   <script src="https://kit.fontawesome.com/d24348a02f.js" crossorigin="anonymous"></script>
   <title>RIRA DEV</title>
 </head>
 
 <body>
-  <div class="container">
+  <div class="header-container">
     <div class="logo">
     
       <a href="#"><img class="logoimg" src="./images/logo1.png" alt=""></a>
@@ -104,7 +106,70 @@
     
   </section>
   <section class="work" id="work-section">
-    <h2>work section</h2>
+    <h2>Nos réalisations</h2>
+    <div class="product-card">
+      <div class="product-info">
+        <h3 class="product-title">GeCoLait</h3>
+        <p>Ce logiciel a été conçu pour gérer un ou plusieurs centres de collecte de lait dans ses moindres besoins et détails dans
+        un mode facile clair et à la portée de tous, pas besoin d’être informaticien, pour profiter des calculs, statistiques et
+        autres résultats pour bien maîtriser la conduite de l’entreprise et mettre de son côté tous les atouts de la réussite.</p>
+        <button>plus d'info</button>
+      </div>
+      <div class="product-img">
+        <img src="http://www.bdsi.tn/sites/default/files/users/admin/bdsi%20GeColait%20menu%20dossier.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-info">
+        <h3 class="product-title">GestCom</h3>
+        <p>C'est une application multi-utilsateur et multi-poste, qui vous permet de personnaliser l'accès aux différents modules
+        selon l'utilisateur ou groupe d'utilisateurs. Vous pouvez gérer les droits d'accès.</p>
+        <button>plus d'info</button>
+      </div>
+      <div class="product-img">
+        <img src="http://www.bdsi.tn/sites/default/files/users/admin/Gestion%20Commerciale%20page%20d%27acceuil.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-info">
+        <h3 class="product-title">LocAuto</h3>
+        <p>Le logiciel de gestion de location des voitures LocAuto est une application spécifique très riche en options et bien
+        détaillés pour faciliter et organiser les différentes tâches de votre activité.</p>
+        <button>plus d'info</button>
+      </div>
+      <div class="product-img">
+        <img src="http://www.bdsi.tn/sites/default/files/users/admin/Gestion%20LocAuto%20tableau%20de%20bord.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-info">
+        <h3 class="product-title">AutoEcole</h3>
+        <p>Le logiciel de gestion AutoEcole est une application spécifique destinée aux bureaux d'auto-école, elle permet le suivi
+        des candidats, la gestion des séances d'examen, de code et de conduite.</p>
+        <button>plus d'info</button>
+      </div>
+      <div class="product-img">
+        <img src="http://www.bdsi.tn/sites/default/files/users/admin/Gestion%20AutoEcole%20page%20accueil.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-info">
+        <h3 class="product-title">Gestion Société de Transport</h3>
+        <p>L’application Web GST est une application spécifique destinée à la gestion des activités des sociétés de transport, elle
+        permet la gestion des véhicules (Assurance, visite technique, Taxe, entretiens, maintenance, …), la gestion des
+        missions, la gestion des clients, fournisseurs et personnels, la facturation et le suivi des chèques et traites (clients
+        et fournisseurs).</p>
+        <button>plus d'info</button>
+      </div>
+      <div class="product-img">
+        <img src="http://www.bdsi.tn/sites/default/files/users/admin/gst/BDSI%20FeuilleTracteur.jpg" alt="">
+      </div>
+    </div>
+
   </section>
   <section class="services" id="services-section">
     <h2 class="services-header">tout ce que vous voulez, nous nous assurerons de vous fournir la meilleure solution</h2>
@@ -196,9 +261,54 @@
       </div>
       </div>
   </section>
-  <footer>
-    footer section
-  </footer>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-column info-footer">
+            <h6>A propos</h6>
+            <p class="text-justify">RIRA Boite de Développement et Services Informatiques, est une société de développement informatique spécialisée dans le
+            développement des logiciels sur-mesure, des sites web, des applications web et des applications mobile.</p>
+          </div>
+    
+    
+          <div class="footer-column">
+            <h6>LIENS UTILES</h6>
+            <ul class="footer-links">
+              <li><a href="#home-section">Accueil</a></li>
+              <li><a href="#propos-section">A Propos</a></li>
+              <li><a href="#work-section">Réalisation</a></li>
+              <li><a href="#services-section">Services</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h6>CONTACTEZ NOUS </h6>
+          </div>
+        </div>
+        <div class="footer-icons">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div >
+            <p class="copyright-text">Copyright &copy; 2021 Tous Droits Réservés
+              <strong>RIRA Dev</strong>.
+            </p>
+          </div>
+    
+          
+        </div>
+      </div>
+    </footer>
+
   <script src="./app.js"></script>
 </body>
 

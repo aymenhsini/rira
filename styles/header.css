@@ -1,4 +1,4 @@
-.container {
+.header-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12,7 +12,7 @@
   z-index: 999;
 }
 
-.container .logo {
+.header-container .logo {
   padding-left: 60px;
 }
 
@@ -32,7 +32,7 @@
   padding: 2px 0;
 }
 
-.container .navbar {
+.header-container .navbar {
   display: flex;
   position: fixed;
   right: 8px;
@@ -40,7 +40,7 @@
   padding-right: 70px;
 }
 
-.container .navbar ul {
+.header-container .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +51,7 @@
   padding: 0;
 }
 
-.container .navbar ul li a {
+.header-container .navbar ul li a {
   text-decoration: none;
   color: #0088cc;
   font-size: 18px;
@@ -64,18 +64,18 @@
   padding: 0 10px;
 }
 
-.container .navbar ul li a:hover {
+.header-container .navbar ul li a:hover {
   color: rgb(32, 31, 31);
   background-color: #99ddff;
 }
 
-.container .navbar ul .close {
+.header-container .navbar ul .close {
   display: none;
   text-align: right;
   padding: 10px;
 }
 
-.container .navbar ul .close span {
+.header-container .navbar ul .close span {
   font-size: 40px;
   display: inline-block;
   border: 1px solid #cccccc;
@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 
-.container .navbar .icon-bar {
+.header-container .navbar .icon-bar {
   padding: 18px 8px;
   width: 50px;
   height: 60px;
@@ -98,39 +98,39 @@
   cursor: pointer;
 }
 
-.container .navbar .icon-bar i {
+.header-container .navbar .icon-bar i {
   background-color: #002233;
   height: 2px;
 }
 
 @media only screen and (max-width: 850px) {
-  .container .navbar ul li a {
+  .header-container .navbar ul li a {
     font-size: 14px;
   }
-  .container .navbar {
+  .header-container .navbar {
     padding-right: 0;
   }
 }
 @media only screen and (max-width: 680px) {
-  .container {
+  .header-container {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
-  .container .logo {
+  .header-container .logo {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 
-  .container .navbar {
+  .header-container .navbar {
     -webkit-box-flex: 0;
     -ms-flex: 0;
     flex: 0;
   }
 
-  .container .navbar ul {
+  .header-container .navbar ul {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     position: fixed;
@@ -148,7 +148,7 @@
     transition: left 0.3s;
   }
 
-  .container .navbar ul li a {
+  .header-container .navbar ul li a {
     padding: 10px;
     font-size: 16px;
     height: auto;
@@ -156,17 +156,17 @@
     color: #0088cc;
   }
 
-  .container .navbar ul .close {
+  .header-container .navbar ul .close {
     display: block;
   }
 
-  .container .navbar .icon-bar {
+  .header-container .navbar .icon-bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 
-  .container .navbar ._Menus-show {
+  .header-container .navbar ._Menus-show {
     left: 0;
   }
 }
